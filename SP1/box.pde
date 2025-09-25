@@ -87,7 +87,7 @@ class Box{
   }
     textSize(40);
     //fill(0, 200, 255);
-    text("Group " + a + " ", width/x, y, 20);
+    text("Group " + a + " ", x, y, 20);
     fill(255);
     }
   }

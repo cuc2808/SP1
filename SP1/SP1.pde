@@ -8,10 +8,10 @@ void setup(){
   background(#013D6C);
 
   Box b1 = new Box();
-  b1.group('A', 4, 30);
-  b1.group('C', 2, 40);
-  b1.group('B', 4, 330);
-  b1.group('D', 2, 330);
+  b1.group('A', 150, 40);
+  b1.group('C', 850, 40);
+  b1.group('B', 150, 350);
+  b1.group('D', 850, 350);
   for(int k = 0; k <= 2; k++){
     for(int j = 0; j <= 2; j++){
       for(int i = 0; i < 4; i++){
