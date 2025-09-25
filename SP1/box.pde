@@ -24,72 +24,54 @@ class Box {
 
     switch(number) {
     case 0:
-      flag = loadImage("russia.jpg");
-      word = "Russia";
+      flag = loadImage("russia.jpg"); word = "Russia";
       break;
     case 1:
-      flag = loadImage("saudi.jpg");
-      word = "Saudi Arabia";
+      flag = loadImage("saudi.jpg"); word = "Saudi Arabia";
       break;
     case 2:
-      flag = loadImage("egypt.jpg");
-      word = "Egypt";
+      flag = loadImage("egypt.jpg"); word = "Egypt";
       break;
     case 3:
-      flag = loadImage("uruguay.jpg");
-      word = "Uruguay";
+      flag = loadImage("uruguay.jpg"); word = "Uruguay";
       break;
     case 4:
-      flag = loadImage("portugal.jpg");
-      word = "Portugal";
+      flag = loadImage("portugal.jpg"); word = "Portugal";
       break;
     case 5:
-      flag = loadImage("spain.jpg");
-      word = "Spain";
+      flag = loadImage("spain.jpg"); word = "Spain";
       break;
     case 6:
-      flag = loadImage("morocco.jpg");
-      word = "Morocco";
+      flag = loadImage("morocco.jpg"); word = "Morocco";
       break;
     case 7:
-      flag = loadImage("iran.jpg");
-      word = "Iran";
+      flag = loadImage("iran.jpg"); word = "Iran";
       break;
     case 8:
-      flag = loadImage("france.jpg");
-      word = "France";
+      flag = loadImage("france.jpg"); word = "France";
       break;
     case 9:
-      flag = loadImage("australia.jpg");
-      word = "Australia";
+      flag = loadImage("australia.jpg"); word = "Australia";
       break;
     case 10:
-      flag = loadImage("peru.jpg");
-      word = "Peru";
+      flag = loadImage("peru.jpg"); word = "Peru";
       break;
     case 11:
-      flag = loadImage("denmark.jpg");
-      word = "Denmark";
+      flag = loadImage("denmark.jpg"); word = "Denmark";
       break;
     case 12:
-      flag = loadImage("argentina.jpg");
-      word = "Argentina";
+      flag = loadImage("argentina.jpg"); word = "Argentina";
       break;
     case 13:
-      flag = loadImage("iceland.jpg");
-      word = "Iceland";
+      flag = loadImage("iceland.jpg"); word = "Iceland";
       break;
     case 14:
-      flag = loadImage("croatia.jpg");
-      word = "Croatia";
+      flag = loadImage("croatia.jpg"); word = "Croatia";
       break;
     case 15:
-      flag = loadImage("nigeria.jpg");
-      word = "Nigeria";
+      flag = loadImage("nigeria.jpg"); word = "Nigeria";
       break;
     }
-    textSize(128);
-    //fill(0, 408, 612, 816);
     fill(0);
     textSize(50);
     text(word.toUpperCase(), 100 + this.x + gap, 45 + this.y + space + hSpace, 200);
